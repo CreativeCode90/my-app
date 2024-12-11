@@ -1,0 +1,32 @@
+header{
+    margin-top: var(--margin-top);
+}
+nav {
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: var(--bg);
+  color: var(--purple-color);
+}
+.menus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  #Link {
+    font-size: 11px;
+    outline: none;
+  }
+  .navLink {
+    font-size: 11px;
+    outline: none;
+  }
+}
+
+.logo_text {
+  font-size: 14px;
+  font-weight: bolder;
+}

@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --bg: rgba(139, 77, 201, 0.171);
+  --purple-color: rgb(148, 48, 230);
+  --btn-bg: rgba(148, 48, 230, 0.825);
+  --btn-color: white;
+  --margin-top: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+body {
+  margin-left: var(--margin-top);
+  margin-right: var(--margin-top);
+}
+
+#btn {
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+  font-size: 12px;
+  border: none;
+  padding: 7px 12px;
+  border-bottom: 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+#container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 1rem auto;
+  background-color: var(--bg);
+  padding: 12px 10px;
+  border-radius: 5px;
+  
+  h1 {
+    color: var(--purple-color);
+    text-transform: uppercase;
+  }
+}
+
+h1 {
+  color: var(--purple-color);
+  text-transform: uppercase;
+}
